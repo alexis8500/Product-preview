@@ -1,0 +1,54 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 50rem;
+    max-width: 50rem;
+    
+}
+
+.card-figure{
+    width: 86rem;
+    height: 100%;
+}
+
+figure picture img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#h2{
+    font-size: 1.3rem;
+}
+
+#section-info-h1{
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+.p-info{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.prices{
+    margin-bottom: 2rem;
+}
+
+button{
+    height: 5rem;
+}
